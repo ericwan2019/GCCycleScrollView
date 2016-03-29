@@ -1,6 +1,6 @@
 
 GCCycleScrollView supports auto scroll and drag of imageview which can be used for Ads repeat scroll (Viwepager function) iOS. Support image data cache and clear cahce function. For each  imageview you can add its title and custom set title labe property or use default title label property.
-GCCycleScrollView用于iOS 广告等图片展示轮播，支持无限循环播放，以及拖拽功能.GCCycleScrollView对于每一张图片都可以添加自己的标题以及设置标题label的相关属性或者使用默认的设置。
+<br>GCCycleScrollView用于iOS 广告等图片展示轮播，支持无限循环播放，以及拖拽功能.GCCycleScrollView对于每一张图片都可以添加自己的标题以及设置标题label的相关属性或者使用默认的设置。
 
 # GCCycleScrollView
 
