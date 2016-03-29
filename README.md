@@ -33,6 +33,7 @@ Download the Project and then drag "lib"file to your own project.首先下载该
 
 ##Example（例子）
 =====
+load local images 本地图片加载
 ```
     //load local images 本地图片加载
     GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 170)];
@@ -43,6 +44,7 @@ Download the Project and then drag "lib"file to your own project.首先下载该
     cycleScroll.dotColor = [UIColor greenColor];
     [self.view addSubview:cycleScroll];
 ```
+load images from website 网络图片加载
 ```
 //load images from website 网络图片加载
     GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 170)];
@@ -53,10 +55,12 @@ Download the Project and then drag "lib"file to your own project.首先下载该
     cycleScroll.dotColor = [UIColor greenColor];
     [self.view addSubview:cycleScroll];
 ```
+clear image data cache清除图片本地缓存
 ```
 //clear image data cache清除图片缓存
 [cycleScroll clearCache];
 ```
+pageCOntroll location; pageCOntroll的位置
 ```
 //pageCOntroll location; pageCOntroll的位置
 typedef NS_ENUM(NSInteger,GCCycleScrollPageControlAliment){
