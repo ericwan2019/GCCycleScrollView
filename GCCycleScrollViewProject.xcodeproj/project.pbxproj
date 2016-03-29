@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		552232A51CA3D0CC002C1F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 552232A41CA3D0CC002C1F8C /* main.m */; };
 		552232A81CA3D0CC002C1F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 552232A71CA3D0CC002C1F8C /* AppDelegate.m */; };
-		552232AB1CA3D0CC002C1F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552232AA1CA3D0CC002C1F8C /* ViewController.m */; };
 		552232AE1CA3D0CC002C1F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552232AC1CA3D0CC002C1F8C /* Main.storyboard */; };
 		552232B01CA3D0CC002C1F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552232AF1CA3D0CC002C1F8C /* Assets.xcassets */; };
 		552232B31CA3D0CC002C1F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552232B11CA3D0CC002C1F8C /* LaunchScreen.storyboard */; };
 		552232BE1CA3D0CC002C1F8C /* GCCycleScrollViewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 552232BD1CA3D0CC002C1F8C /* GCCycleScrollViewProjectTests.m */; };
 		552232C91CA3D0CC002C1F8C /* GCCycleScrollViewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 552232C81CA3D0CC002C1F8C /* GCCycleScrollViewProjectUITests.m */; };
+		5543EF1D1CA8D338003E9789 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543EF1C1CA8D338003E9789 /* MainViewController.m */; };
+		55B1D6E91CAA4FDD00B24A7D /* GCCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6D91CAA4FDD00B24A7D /* GCCycleScrollView.m */; };
+		55B1D6EA1CAA4FDD00B24A7D /* GCScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6DB1CAA4FDD00B24A7D /* GCScrollViewCell.m */; };
+		55B1D6EB1CAA4FDD00B24A7D /* NSData+GCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6DD1CAA4FDD00B24A7D /* NSData+GCCache.m */; };
+		55B1D6EC1CAA4FDD00B24A7D /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6E01CAA4FDD00B24A7D /* TAAbstractDotView.m */; };
+		55B1D6ED1CAA4FDD00B24A7D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6E21CAA4FDD00B24A7D /* TAAnimatedDotView.m */; };
+		55B1D6EE1CAA4FDD00B24A7D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6E41CAA4FDD00B24A7D /* TADotView.m */; };
+		55B1D6EF1CAA4FDD00B24A7D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6E61CAA4FDD00B24A7D /* TAPageControl.m */; };
+		55B1D6F01CAA4FDD00B24A7D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B1D6E81CAA4FDD00B24A7D /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		552232A41CA3D0CC002C1F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		552232A61CA3D0CC002C1F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		552232A71CA3D0CC002C1F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		552232A91CA3D0CC002C1F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		552232AA1CA3D0CC002C1F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		552232AD1CA3D0CC002C1F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		552232AF1CA3D0CC002C1F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552232B21CA3D0CC002C1F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 		552232C41CA3D0CC002C1F8C /* GCCycleScrollViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCCycleScrollViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552232C81CA3D0CC002C1F8C /* GCCycleScrollViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCCycleScrollViewProjectUITests.m; sourceTree = "<group>"; };
 		552232CA1CA3D0CC002C1F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543EF1B1CA8D338003E9789 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5543EF1C1CA8D338003E9789 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		55B1D6D81CAA4FDD00B24A7D /* GCCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCycleScrollView.h; sourceTree = "<group>"; };
+		55B1D6D91CAA4FDD00B24A7D /* GCCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCycleScrollView.m; sourceTree = "<group>"; };
+		55B1D6DA1CAA4FDD00B24A7D /* GCScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCScrollViewCell.h; sourceTree = "<group>"; };
+		55B1D6DB1CAA4FDD00B24A7D /* GCScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCScrollViewCell.m; sourceTree = "<group>"; };
+		55B1D6DC1CAA4FDD00B24A7D /* NSData+GCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GCCache.h"; sourceTree = "<group>"; };
+		55B1D6DD1CAA4FDD00B24A7D /* NSData+GCCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GCCache.m"; sourceTree = "<group>"; };
+		55B1D6DF1CAA4FDD00B24A7D /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		55B1D6E01CAA4FDD00B24A7D /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		55B1D6E11CAA4FDD00B24A7D /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		55B1D6E21CAA4FDD00B24A7D /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		55B1D6E31CAA4FDD00B24A7D /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		55B1D6E41CAA4FDD00B24A7D /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		55B1D6E51CAA4FDD00B24A7D /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		55B1D6E61CAA4FDD00B24A7D /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		55B1D6E71CAA4FDD00B24A7D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		55B1D6E81CAA4FDD00B24A7D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 		552232971CA3D0CC002C1F8C = {
 			isa = PBXGroup;
 			children = (
+				55B1D6D71CAA4FDD00B24A7D /* GCCycleScrollView */,
 				552232A21CA3D0CC002C1F8C /* GCCycleScrollViewProject */,
 				552232BC1CA3D0CC002C1F8C /* GCCycleScrollViewProjectTests */,
 				552232C71CA3D0CC002C1F8C /* GCCycleScrollViewProjectUITests */,
@@ -103,8 +128,8 @@
 			children = (
 				552232A61CA3D0CC002C1F8C /* AppDelegate.h */,
 				552232A71CA3D0CC002C1F8C /* AppDelegate.m */,
-				552232A91CA3D0CC002C1F8C /* ViewController.h */,
-				552232AA1CA3D0CC002C1F8C /* ViewController.m */,
+				5543EF1B1CA8D338003E9789 /* MainViewController.h */,
+				5543EF1C1CA8D338003E9789 /* MainViewController.m */,
 				552232AC1CA3D0CC002C1F8C /* Main.storyboard */,
 				552232AF1CA3D0CC002C1F8C /* Assets.xcassets */,
 				552232B11CA3D0CC002C1F8C /* LaunchScreen.storyboard */,
@@ -138,6 +163,37 @@
 				552232CA1CA3D0CC002C1F8C /* Info.plist */,
 			);
 			path = GCCycleScrollViewProjectUITests;
+			sourceTree = "<group>";
+		};
+		55B1D6D71CAA4FDD00B24A7D /* GCCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				55B1D6D81CAA4FDD00B24A7D /* GCCycleScrollView.h */,
+				55B1D6D91CAA4FDD00B24A7D /* GCCycleScrollView.m */,
+				55B1D6DA1CAA4FDD00B24A7D /* GCScrollViewCell.h */,
+				55B1D6DB1CAA4FDD00B24A7D /* GCScrollViewCell.m */,
+				55B1D6DC1CAA4FDD00B24A7D /* NSData+GCCache.h */,
+				55B1D6DD1CAA4FDD00B24A7D /* NSData+GCCache.m */,
+				55B1D6DE1CAA4FDD00B24A7D /* PageControl */,
+				55B1D6E71CAA4FDD00B24A7D /* UIView+Frame.h */,
+				55B1D6E81CAA4FDD00B24A7D /* UIView+Frame.m */,
+			);
+			path = GCCycleScrollView;
+			sourceTree = "<group>";
+		};
+		55B1D6DE1CAA4FDD00B24A7D /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				55B1D6DF1CAA4FDD00B24A7D /* TAAbstractDotView.h */,
+				55B1D6E01CAA4FDD00B24A7D /* TAAbstractDotView.m */,
+				55B1D6E11CAA4FDD00B24A7D /* TAAnimatedDotView.h */,
+				55B1D6E21CAA4FDD00B24A7D /* TAAnimatedDotView.m */,
+				55B1D6E31CAA4FDD00B24A7D /* TADotView.h */,
+				55B1D6E41CAA4FDD00B24A7D /* TADotView.m */,
+				55B1D6E51CAA4FDD00B24A7D /* TAPageControl.h */,
+				55B1D6E61CAA4FDD00B24A7D /* TAPageControl.m */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552232AB1CA3D0CC002C1F8C /* ViewController.m in Sources */,
+				55B1D6ED1CAA4FDD00B24A7D /* TAAnimatedDotView.m in Sources */,
+				55B1D6EE1CAA4FDD00B24A7D /* TADotView.m in Sources */,
+				5543EF1D1CA8D338003E9789 /* MainViewController.m in Sources */,
+				55B1D6EB1CAA4FDD00B24A7D /* NSData+GCCache.m in Sources */,
 				552232A81CA3D0CC002C1F8C /* AppDelegate.m in Sources */,
+				55B1D6EC1CAA4FDD00B24A7D /* TAAbstractDotView.m in Sources */,
+				55B1D6E91CAA4FDD00B24A7D /* GCCycleScrollView.m in Sources */,
+				55B1D6EF1CAA4FDD00B24A7D /* TAPageControl.m in Sources */,
+				55B1D6EA1CAA4FDD00B24A7D /* GCScrollViewCell.m in Sources */,
 				552232A51CA3D0CC002C1F8C /* main.m in Sources */,
+				55B1D6F01CAA4FDD00B24A7D /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +562,7 @@
 				552232CF1CA3D0CC002C1F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		552232D01CA3D0CC002C1F8C /* Build configuration list for PBXNativeTarget "GCCycleScrollViewProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +571,7 @@
 				552232D21CA3D0CC002C1F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		552232D31CA3D0CC002C1F8C /* Build configuration list for PBXNativeTarget "GCCycleScrollViewProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +580,7 @@
 				552232D51CA3D0CC002C1F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
