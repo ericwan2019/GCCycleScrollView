@@ -15,7 +15,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+## Installation(安装)
 
 GCCycleScrollView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -23,6 +23,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "GCCycleScrollView"
 ```
+
+#Manual Install(手动导入)
+Download the Project and then drag "lib"file to your own project.首先下载该项目，把项目中的lib文件夹拉入自己的项目。
+#import "GCCycleScrollView.h"
+
+
+
 
 ## Author
 
