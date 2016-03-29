@@ -1,4 +1,7 @@
-<<<<<<< .merge_file_WHsrGC
+
+GCCycleScrollView supports auto scroll and drag of imageview which can be used for Ads repeat scroll (Viwepager function) iOS.
+GCCycleScrollView用于iOS 广告等图片展示轮播，支持无限循环播放，以及拖拽功能
+
 # GCCycleScrollView
 
 [![CI Status](http://img.shields.io/travis/EricWan/GCCycleScrollView.svg?style=flat)](https://travis-ci.org/EricWan/GCCycleScrollView)
@@ -30,4 +33,4 @@ EricWan, 1396855545@qq.com
 GCCycleScrollView is available under the MIT license. See the LICENSE file for more info.
 =======
 # GCCycleScrollView
->>>>>>> .merge_file_cqVJ2G
+
