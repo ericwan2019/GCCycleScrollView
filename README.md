@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_WHsrGC
 # GCCycleScrollView
 
 [![CI Status](http://img.shields.io/travis/EricWan/GCCycleScrollView.svg?style=flat)](https://travis-ci.org/EricWan/GCCycleScrollView)
@@ -27,3 +28,6 @@ EricWan, 1396855545@qq.com
 ## License
 
 GCCycleScrollView is available under the MIT license. See the LICENSE file for more info.
+=======
+# GCCycleScrollView
+>>>>>>> .merge_file_cqVJ2G
