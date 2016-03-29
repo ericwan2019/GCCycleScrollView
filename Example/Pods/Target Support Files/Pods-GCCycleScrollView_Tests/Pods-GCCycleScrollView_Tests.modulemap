@@ -1,0 +1,6 @@
+framework module Pods_GCCycleScrollView_Tests {
+  umbrella header "Pods-GCCycleScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
