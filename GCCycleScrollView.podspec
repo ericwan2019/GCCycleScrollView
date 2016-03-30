@@ -8,7 +8,10 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wheying" => "1396855545@qq.com" }
-  s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :tag => s.version.to_s }
+  #s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :commit => "41f86bf77f714be7476c0381f156016a77db9287" , :tag => s.version.to_s}
+
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

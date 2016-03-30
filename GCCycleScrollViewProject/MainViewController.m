@@ -21,24 +21,24 @@
     
     
 //    //本地图片加载
-//    GCCycleScrollView *cyc = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 170)];
-//    cyc.delegate =self;
+//    GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 170)];
+//    cycleScroll.delegate =self;
 //    NSArray *images = [[NSArray alloc] initWithObjects:[UIImage imageNamed:@"3"],[UIImage imageNamed:@"1"],[UIImage imageNamed:@"5"],[UIImage imageNamed:@"2"],nil];
-//    cyc.localImageGroups = images;
-//    cyc.autoScrollTimeInterval = 3.0;
-//    cyc.dotColor = [UIColor greenColor];
-//    [self.view addSubview:cyc];
+//    cycleScroll.localImageGroups = images;
+//    cycleScroll.autoScrollTimeInterval = 3.0;
+//    cycleScroll.dotColor = [UIColor greenColor];
+//    [self.view addSubview:cycleScroll];
     
     
     
     //网络图片加载
-    GCCycleScrollView *cycurl = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 170)];
-    cycurl.delegate =self;
+    GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 170)];
+    cycleScroll.delegate =self;
     NSArray *urlimages = [[NSArray alloc] initWithObjects:@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19563.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19747.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19515.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201602/apic18951.jpg",nil];
-    cycurl.imageUrlGroups = urlimages;
-    cycurl.autoScrollTimeInterval = 3.0;
-    cycurl.dotColor = [UIColor greenColor];
-    [self.view addSubview:cycurl];
+    cycleScroll.imageUrlGroups = urlimages;
+    cycleScroll.autoScrollTimeInterval = 3.0;
+    cycleScroll.dotColor = [UIColor greenColor];
+    [self.view addSubview:cycleScroll];
     
 }
 
