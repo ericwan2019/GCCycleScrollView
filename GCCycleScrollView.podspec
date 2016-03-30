@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GCCycleScrollView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "GCCycleScrollView used for cycle scroll."
   s.description      = "Can be used for cycle scroll of Ads, the images can be local or URL images."
 
