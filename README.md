@@ -9,6 +9,9 @@ GCCycleScrollView supports auto scroll and drag of imageview which can be used f
 [![License](https://img.shields.io/cocoapods/l/GCCycleScrollView.svg?style=flat)](http://cocoapods.org/pods/GCCycleScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/GCCycleScrollView.svg?style=flat)](http://cocoapods.org/pods/GCCycleScrollView)
 
+## Picture(图片效果)
+![image](https://github.com/wheying/GCCycleScrollView/blob/master/test.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
