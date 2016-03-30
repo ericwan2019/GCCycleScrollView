@@ -143,6 +143,15 @@
     
 }
 
+- (void)setHasConfigured:(BOOL)hasConfigured{
+    _hasConfigured = hasConfigured;
+}
+
+
+- (void)setTitles:(NSArray *)titles{
+    _titles = titles;
+    [self setUpScrollViewContent];
+}
 
 - (void)setLocalImageGroups:(NSArray *)localImageGroups{
     _localImageGroups = localImageGroups;
@@ -258,9 +267,9 @@
     _pageControlAliment = GCCycleScrollPageControlAlimentCenter;
     _autoScrollTimeInterval = 1.0;
     _titleLabelFont = [UIFont systemFontOfSize:14];
-    _titleLabelHeight = 20;
+    _titleLabelHeight = 30;
     _titleLabelTextColor = [UIColor whiteColor];
-    _titleLabelBgColor = GCColorWithAlpha(0, 0, 0, 0.6);
+    _titleLabelBgColor = GCColorWithAlpha(0, 0, 0, 0.4);
     _iSHiddenTittleLabel = YES;
     self.backgroundColor = [UIColor lightGrayColor];
 }

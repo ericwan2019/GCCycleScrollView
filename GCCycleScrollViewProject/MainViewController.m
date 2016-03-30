@@ -32,12 +32,15 @@
     
     
     //网络图片加载
-    GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 170)];
+    GCCycleScrollView *cycleScroll = [[GCCycleScrollView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 170)];
     cycleScroll.delegate =self;
     NSArray *urlimages = [[NSArray alloc] initWithObjects:@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19563.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19747.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201603/apic19515.jpg",@"http://pics.sc.chinaz.com/files/pic/pic9/201602/apic18951.jpg",nil];
+    
     cycleScroll.imageUrlGroups = urlimages;
     cycleScroll.autoScrollTimeInterval = 3.0;
     cycleScroll.dotColor = [UIColor greenColor];
+    cycleScroll.iSHiddenTittleLabel = NO;
+    cycleScroll.titles = [[NSArray alloc] initWithObjects:@"测试标题1",@"测试标题2",@"测试标题3", @"测试标题4",nil];
     [self.view addSubview:cycleScroll];
     
 }

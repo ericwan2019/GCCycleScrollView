@@ -112,6 +112,11 @@ typedef NS_ENUM(NSInteger,GCCycleScrollPageControlAliment){
 
 
 /**
+ *  是否设置结构，若无则使用默认的设置
+ */
+@property (nonatomic, assign) BOOL hasConfigured;
+
+/**
  *  创建声明cycleScrollView的方式
  *
  *  @param frame       frame
