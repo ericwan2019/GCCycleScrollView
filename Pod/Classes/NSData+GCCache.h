@@ -29,6 +29,6 @@
 /**
  *  清除所有缓存
  */
-- (void)clear;
++ (void)clear;
 
 @end

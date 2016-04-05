@@ -99,7 +99,7 @@
 /**
  *  清除所有缓存
  */
--(void)clear{
++ (void)clear{
     NSFileManager *manager = [NSFileManager defaultManager];
     
     if ([manager removeItemAtPath:[NSData path] error:nil]) {

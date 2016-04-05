@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GCCycleScrollView"
-  s.version          = "0.1.2"
+  s.version          = "0.1.1"
   s.summary          = "GCCycleScrollView used for cycle scroll."
   s.description      = "Can be used for cycle scroll of Ads, the images can be local or URL images."
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "wheying" => "1396855545@qq.com" }
   #s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :tag => s.version.to_s }
-  s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :tag => s.version.to_s}
+  s.source           = { :git => "https://github.com/wheying/GCCycleScrollView.git", :commit => "c55fa9413ce5a1f7404a73cbb9f42b62aa087f7c" ,:tag => s.version.to_s}
 
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'

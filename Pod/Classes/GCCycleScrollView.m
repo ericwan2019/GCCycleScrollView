@@ -362,6 +362,9 @@
     singleTap.numberOfTapsRequired = 1;
     [self addGestureRecognizer:singleTap];
     
+    [_timer invalidate];
+    _timer = nil;
+    [self setUpTimer];
 }
 
 
@@ -378,8 +381,8 @@
  *  清除缓存
  */
 -(void)clearCache{
-    NSData *data = [[NSData alloc] init];
-    [data clear];
+    
+    [NSData clear];
 }
 
 
