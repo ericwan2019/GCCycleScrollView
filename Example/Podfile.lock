@@ -1,5 +1,5 @@
 PODS:
-  - GCCycleScrollView (0.1.0)
+  - GCCycleScrollView (0.1.1)
 
 DEPENDENCIES:
   - GCCycleScrollView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GCCycleScrollView: 77bfa7d9af13a61c05b0b38e8fe21130c75dbb94
+  GCCycleScrollView: c6d47040d2dc60e69a60b5a937ef81d8773fb323
 
 COCOAPODS: 0.39.0

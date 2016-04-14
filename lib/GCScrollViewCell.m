@@ -18,27 +18,19 @@
     return self;
 }
 
+/**
+ *  初始化
+ */
 -(void)setUp{
     _imgView = [[UIImageView alloc] init];
     [self addSubview:_imgView];
-    
     _titleLabel = [[UILabel alloc] init];
     _titleLabel.hidden = YES;
     [self addSubview:_titleLabel];
 }
 
 
--(void)setIsHiddenForTitle:(BOOL)isHiddenForTitle{
-    _isHiddenForTitle = isHiddenForTitle;
-    _titleLabel.hidden = isHiddenForTitle;
-}
 
-
--(void)setTitle:(NSString *)title{
-    _title = [[NSString alloc] init];
-    _title = title;
-    _titleLabel.text =  [NSString stringWithFormat:@"   %@", title];
-}
 
 - (void)layoutSubviews{
     [super layoutSubviews];
@@ -50,10 +42,17 @@
     CGFloat titleLabelX = 0;
     CGFloat titleLabelY = self.height - titleLabelH;
     _titleLabel.frame = CGRectMake(titleLabelX, titleLabelY, titleLabelW, titleLabelH);
-    _titleLabel.hidden = _isHiddenForTitle;
+    _titleLabel.hidden = !_titleLabel.text;
     
 }
 
+
+#pragma mark -set & get
+-(void)setTitle:(NSString *)title{
+    _title = [[NSString alloc] init];
+    _title = title;
+    _titleLabel.text =  [NSString stringWithFormat:@"   %@", title];
+}
 
 -(void)setTitleLabelBgColor:(UIColor *)titleLabelBgColor{
     _titleLabelBgColor = titleLabelBgColor;

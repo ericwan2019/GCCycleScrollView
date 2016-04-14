@@ -99,11 +99,12 @@
 /**
  *  清除所有缓存
  */
--(void)clear{
++ (void)clear{
     NSFileManager *manager = [NSFileManager defaultManager];
-    
+//    NSLog(@"files = %@",[manager subpathsAtPath:[self path]]);
     if ([manager removeItemAtPath:[NSData path] error:nil]) {
         NSLog(@"remove data cache successfully");
+//        NSLog(@"filess = %@",[manager subpathsAtPath:[self path]]);
     }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "GCCycleScrollView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "GCCycleScrollView used for cycle scroll.",
   "description": "Can be used for cycle scroll of Ads, the images can be local or URL images.",
   "homepage": "https://github.com/wheying/GCCycleScrollView",
@@ -10,7 +10,8 @@
   },
   "source": {
     "git": "https://github.com/wheying/GCCycleScrollView.git",
-    "tag": "0.1.0"
+    "commit": "c55fa9413ce5a1f7404a73cbb9f42b62aa087f7c",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"
@@ -22,6 +23,6 @@
       "Pod/Assets/*.png"
     ]
   },
-  "public_header_files": "Pod/Classes/GCCycleScrollView.h,Pod/Classes/GCCycleScrollView.h",
+  "public_header_files": "Pod/Classes/GCCycleScrollView.h",
   "frameworks": "UIKit"
 }

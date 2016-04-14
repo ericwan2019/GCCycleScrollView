@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/GCScrollViewCell.h
+../../../../../Pod/Classes/View/GCScrollViewCell.h

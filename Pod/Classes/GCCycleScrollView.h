@@ -7,6 +7,35 @@
 //
 
 #import <UIKit/UIKit.h>
+
+
+/**
+ *  把RGB色值由0～255转为标准的0～1.0, alpha默认为1.0
+ *
+ *  @param r red 0.0~255.0
+ *  @param g green 0.0~255.0
+ *  @param b blue 0.0~255.0
+ *
+ *  @return RGB color
+ */
+#define GCColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+/**
+ *  把RGB色值由0～255转为标准的0～1.0,alpha可以设值
+ *
+ *  @param r red 0.0~255.0
+ *  @param g green 0.0~255.0
+ *  @param b blue 0.0~255.0
+ *  @param a alpha 0.0~1.0
+ *
+ *  @return RGB color
+ */
+#define GCColorWithAlpha(r, g, b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+
+
+
 typedef NS_ENUM(NSInteger,GCCycleScrollPageControlAliment){
     /**
      *  page control 位于中间，默认在中间
@@ -101,20 +130,13 @@ typedef NS_ENUM(NSInteger,GCCycleScrollPageControlAliment){
 @property (nonatomic, strong) UIColor *titleLabelBgColor;
 
 /**
- *  标题是否隐藏
- */
-@property (nonatomic,assign) BOOL iSHiddenTittleLabel;
-
-/**
  *  title字体高度，默认为20
  */
 @property (nonatomic, assign) CGFloat titleLabelHeight;
 
 
-/**
- *  是否设置结构，若无则使用默认的设置
- */
-@property (nonatomic, assign) BOOL hasConfigured;
+
+
 
 /**
  *  创建声明cycleScrollView的方式

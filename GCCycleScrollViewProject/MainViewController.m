@@ -39,7 +39,6 @@
     cycleScroll.imageUrlGroups = urlimages;
     cycleScroll.autoScrollTimeInterval = 3.0;
     cycleScroll.dotColor = [UIColor greenColor];
-    cycleScroll.iSHiddenTittleLabel = NO;
     cycleScroll.titles = [[NSArray alloc] initWithObjects:@"测试标题1",@"测试标题2",@"测试标题3", @"测试标题4",nil];
     [self.view addSubview:cycleScroll];
     

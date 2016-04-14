@@ -40,13 +40,6 @@
  *  图片
  */
 @property (strong, nonatomic) UIImageView *imgView;
-/**
- *  isHiddenForTitle 默认是隐藏
- */
-@property (nonatomic,assign) BOOL isHiddenForTitle;
 
-/**
- *  是否设置结构，若无则使用默认的设置
- */
-@property (nonatomic, assign) BOOL hasConfigured;
+
 @end

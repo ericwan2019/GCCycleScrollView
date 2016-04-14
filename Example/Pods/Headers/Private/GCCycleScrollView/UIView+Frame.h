@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/UIView+Frame.h
+../../../../../Pod/Classes/Categories/UIView+Frame.h
